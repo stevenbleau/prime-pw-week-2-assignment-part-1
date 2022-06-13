@@ -1,22 +1,25 @@
-console.log('js')
+//console.log('js')
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Steven';
-console.log('the value of firstName is', firstName);
+//console.log('the value of firstName is', firstName);
+
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Bleau';
-console.log('the value of lastName is', lastName);
+//console.log('the value of lastName is', lastName);
+
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName+lastName;
 
 // 4 - Console log the value of `fullName`
-console.log('the value of fullName is', fullName);
+//console.log('the value of fullName is', fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 7;
+let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above: 
-console.log('the value of luckyNumber is', luckyNumber);
+//console.log('the value of luckyNumber is', luckyNumber);
 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 console.log('My name is ',fullName,', and I think ',luckyNumber, 'is a winner!');
@@ -40,12 +43,12 @@ if (adventurous == true){
     console.log('Adventures are great!');
 }
 else{
-    console.log('how about we stay home?');
+   console.log('how about we stay home?');
 }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if ((luckyNumber==2)&&(adventurous==true){
+if ((luckyNumber==2)&&(adventurous==true)){
     console.log('Roll the dice!');
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -53,7 +56,16 @@ if ((luckyNumber==2)&&(adventurous==true){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-
+if (pets<allowedPets){
+    console.log('I can have more pets!');
+}
+else if(pets==allowedPets){
+    console.log('I have enough pets')
+}
+else if(pets>allowedPets){
+    console.log('Oh no, I have too many pets!')
+    
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
