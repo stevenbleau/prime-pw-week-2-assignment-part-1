@@ -9,13 +9,15 @@ console.log('the value of lastName is', lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName+lastName;
-console.log('the value of fullName is', fullName);
 
 // 4 - Console log the value of `fullName`
+console.log('the value of fullName is', fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-
+let luckyNumber = 7;
 // 6 - Console log this sentence, adding in the variables you created above: 
+console.log('the value of luckyNumber is', luckyNumber);
+
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
