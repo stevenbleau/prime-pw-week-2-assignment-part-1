@@ -8,6 +8,8 @@ let lastName = 'Bleau';
 console.log('the value of lastName is', lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
+let fullName = firstName+lastName;
+console.log('the value of fullName is', fullName);
 
 // 4 - Console log the value of `fullName`
 
